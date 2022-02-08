@@ -11,3 +11,9 @@
     por cliente http
     
         curl --location --request GET 'http://localhost:4567/entornos'
+
+3.  descarga de artefacto de GitHub y correr la aplicación por consola:
+    
+        java -jar demo-1.0-SNAPSHOT-jar-with-dependencies.jar
+        
+ 
