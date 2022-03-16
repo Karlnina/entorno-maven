@@ -1,0 +1,13 @@
+name: Manejo de Runners
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  setup:
+    runs-on: self-hosted
+
+    steps:
+    - name: Informacion Nodos
+      run: ip add
