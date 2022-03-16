@@ -10,4 +10,4 @@ jobs:
     
     steps:
     - name: Informacion Nodos
-      run: ls 
+      run: mkdir FOLDER-TEST-RUNNER
